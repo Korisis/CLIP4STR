@@ -19,7 +19,7 @@ from .modules import DecoderLayer, Decoder, modify_attn_mask
 
 
 # an alternative choice when the input argument is not valid 
-CLIP_PATH = '/PUT/YOUR/PATH/HERE/pretrained/clip'
+CLIP_PATH = '/content/pretrained/clip'
 
 
 class VL4STR(CrossEntropySystem):
